@@ -1,0 +1,202 @@
+body {
+    padding: 1cm;
+    background-image:url("weather.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  .header {
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+  }
+  .header h1{
+    color:rgb(50, 45, 146);
+    font-size: 50px;
+    text-decoration:solid;
+    padding-left: 595px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+  }
+  #input{
+    font-size: 20px;
+    padding:5px 10px;
+    border-radius:20px;
+    border-color: black;
+    border-style: solid;
+    
+  }
+
+  #search{
+    background:rgb(195 188 177);
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: black;
+    border-style:solid;
+  } 
+
+  .weather{
+    
+    color:rgba(12 16 134 1);
+    
+
+  }
+
+ .weather img{
+    width:140px;
+    border-radius: 20%;
+    border-style: double;
+    border-color: rgb(4, 4, 31);
+    
+ }
+
+ main{
+    display:grid;
+    grid-template-columns:1fr 5px 1fr;
+    grid-column-gap:20px;
+    
+ }
+  #city{
+    font-size: 36px;
+    padding-left: 182px;
+    font-style: oblique;
+    font-family: monospace;
+  }
+
+  #temperature{
+    font-size: 50px;
+    text-align:end;
+
+  }
+  .temperature-box{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  #clouds{
+    font-size: 30px;
+    color:rgb(136 76 76);
+    padding-left: 209px;
+    font-style: italic;
+   
+    
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+  .next{
+    display:flex;
+    justify-content: normal;
+    align-items: baseline;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  .next p{
+    margin: 19px;
+    padding-right: 85px;
+  }
+
+  .time , .date{
+    color:rgb(145, 115, 68)
+  }
+  .description{
+    color:brown;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    
+  }
+  .description1{
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    
+  }
+
+
+  .castheader{
+    color: rgb(108 69 113);
+    
+    background-color: #e6e1dd;
+    width:max-content;
+    border-radius: 20px;
+   
+    border-style: solid;
+    padding:3px;
+    font-size:larger;
+    font-weight:bolder;
+    font-style: italic;
+    
+
+  }
+
+
+  .divider1, .divider2{
+    background-color: rgb(37, 20, 23);
+    height: 500px;
+  }
+
+.divider2{
+    height:5px;
+  
+    
+}
+
+.forecast2{
+    margin: 45px 55px; ;
+}
+
+.week{
+    display: grid;
+    grid-template-columns: repeat(6,5fr);
+}
+
+.date{
+   
+    font-weight: bold;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.tempw{
+  font-size: large;
+  font-weight: bold;
+}
+
+#img1{
+  width: 95px;
+  float: right;
+  padding-left: 100px;
+}
+
+.forecast3{
+  float:right;
+  margin-bottom: 50px;
+  border:20px;
+  
+    display:flex;
+    justify-content: normal;
+    align-items: baseline;
+    
+    
+  
+}
+
+.city-temp{
+  display: grid;
+  grid-template-columns: repeat(6,5fr);
+}
+
+.extra{
+  font-size: larger;
+  font-style: italic;
+  padding-left: 230px;
+  color:rgb(62, 45, 50);
+  font-family: cursive;
+  font-weight: bold;
+
+}
+  
+
